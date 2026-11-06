@@ -9,10 +9,10 @@ Consulta `ACTUALIZAR.txt`. Reemplaza los archivos del repositorio en GitHub y co
 ## Funciones
 
 - Detección de feeds de WordPress, Substack, Medium, Blogger, Ghost, Tumblr y YouTube.
-- Extracción de imágenes desde RSS y etiquetas HTML habituales, incluidas rutas lazy load, `srcset`, `media:content` y `enclosure`.
+- Extracción de imágenes desde RSS y etiquetas HTML habituales, incluidas rutas lazy load y `srcset`; prioriza `srcset` de mayor resolución y variantes grandes `media:content` frente a miniaturas.
 - Proxy de imágenes con caché y referencia del artículo para fuentes con protección contra hotlink.
 - Siete diseños: muro, lista, carrusel, imágenes, cinta, revista y feed.
-- Personalización de colores, cabecera, textos, velocidad, dirección, movimiento, número de entradas y visibilidad del sitio de origen.
+- Personalización de colores, cabecera, textos, velocidad, dirección, movimiento, número de entradas, visibilidad del sitio de origen y activación de enlaces de cada noticia.
 - Vista previa y código insertable que se actualizan con los controles.
 - Tarjetas con texto adaptable, widget responsive e iframe con ajuste automático de altura.
 - Imágenes cargadas primero mediante el proxy y, si falla, directamente desde la fuente; las entradas sin imagen no intentan cargar la página del artículo como si fuera una foto.
