@@ -4,7 +4,7 @@ Genera feeds RSS desde páginas web o fuentes RSS/Atom y crea widgets personaliz
 
 ## Actualizar
 
-Consulta `ACTUALIZAR.txt`. Reemplaza los archivos del repositorio en GitHub y confirma el cambio; Cloudflare despliega automáticamente la rama conectada. Después de cambiar las opciones del widget, reemplaza el código iframe anterior por el nuevo.
+Consulta `ACTUALIZAR.txt`. Reemplaza los archivos del repositorio en GitHub y confirma el cambio; Cloudflare despliega automáticamente la rama conectada. La vista previa utiliza el iframe real y cambia al modificar las opciones. Después de cambiar ajustes en Feedit, reemplaza en tu web el código iframe anterior por el nuevo para publicar esos cambios.
 
 ## Funciones
 
@@ -15,6 +15,8 @@ Consulta `ACTUALIZAR.txt`. Reemplaza los archivos del repositorio en GitHub y co
 - Personalización de colores, cabecera, textos, velocidad, dirección, movimiento y número de entradas.
 - Vista previa y código insertable que se actualizan con los controles.
 - Tarjetas con texto adaptable, widget responsive e iframe con ajuste automático de altura.
+- Imágenes cargadas primero mediante el proxy y, si falla, directamente desde la fuente; las entradas sin imagen no intentan cargar la página del artículo como si fuera una foto.
+- Vista previa del widget servida por el mismo iframe que se inserta, para que los ajustes se comprueben en el resultado real.
 
 ## Requisitos
 
