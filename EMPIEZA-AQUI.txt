@@ -1,0 +1,16 @@
+DRÖMA RSS STUDIO — PASOS MÍNIMOS
+
+1. En GitHub, crea un repositorio nuevo (puede ser privado o público).
+2. Sube TODOS los archivos y carpetas de este paquete. En la página principal del repositorio debes ver directamente: wrangler.toml, package.json, README.md y la carpeta src.
+3. En Cloudflare, conecta tu cuenta de GitHub y elige ese repositorio.
+4. En la configuración de compilación, pon:
+   - Rama: main
+   - Build command: vacío
+   - Deploy command: npx wrangler deploy
+   - Root directory: / (o vacío)
+5. Pulsa Save and Deploy.
+6. Cuando termine, abre la dirección workers.dev que muestra Cloudflare.
+
+No copies el bloque "observability" que pueda mostrar Cloudflare: ya está incluido correctamente en wrangler.toml. No hace falta editar código ni crear parámetros adicionales.
+
+Si Cloudflare muestra un error, envía una captura o copia el texto completo del error.

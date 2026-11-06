@@ -1,0 +1,12 @@
+CÓMO PUBLICAR ESTA ACTUALIZACIÓN
+
+1. Abre tu repositorio en GitHub.
+2. Pulsa Add file > Upload files.
+3. Descomprime el ZIP y arrastra TODOS los archivos y carpetas a GitHub, sustituyendo los existentes cuando lo solicite.
+4. Pulsa Commit changes.
+5. Cloudflare detectará el cambio y publicará la nueva versión automáticamente. Espera a que el despliegue aparezca como Successful.
+6. Recarga Feedit. Si aún ves la versión anterior, haz una recarga forzada con Ctrl+F5.
+
+No cambies los valores de Cloudflare para una actualización normal. Si GitHub pregunta si reemplazar archivos con el mismo nombre, acepta el reemplazo.
+
+El favicon Feedit está en public/favicon.svg y también integrado en el Worker. Al copiar la actualización, conserva la carpeta public y reemplaza src/index.js.
