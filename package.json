@@ -2,7 +2,7 @@
   "name": "feedit",
   "version": "1.0.0",
   "private": true,
-  "description": "Generador de feeds RSS y widgets dinámicos Dröma",
+  "description": "Generador de feeds RSS y widgets dinámicos Feedit",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"

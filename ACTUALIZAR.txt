@@ -1,4 +1,4 @@
-ACTUALIZACIÓN: DISEÑO, FOTOS Y WIDGET
+ACTUALIZACIÓN: FOTOS, TEXTO Y ALTURA DEL WIDGET
 
 1. Abre el repositorio Feedit en GitHub.
 2. Pulsa Add file > Upload files.
@@ -6,6 +6,8 @@ ACTUALIZACIÓN: DISEÑO, FOTOS Y WIDGET
 4. Pulsa Commit changes.
 5. Espera a que el despliegue de Cloudflare aparezca como Successful.
 6. Recarga Feedit con Ctrl+F5.
-7. Genera de nuevo el widget. Cuando cambies la configuración, copia el código actualizado y reemplaza el iframe que ya habías pegado en tu web: el código insertado conserva los ajustes que tenía al copiarlo.
+7. Genera otra vez el widget y sustituye en tu web el código iframe anterior por el código nuevo.
 
-Esta versión evita que el campo de código ensanche la página, mantiene el ancho de la vista previa dentro de su tarjeta y carga las fotos de la vista previa y del widget mediante el proxy de Feedit.
+Esta versión corrige la extracción de imágenes desde páginas web y RSS, usa la dirección del artículo al pedir imágenes, fuerza el ajuste de texto de las tarjetas, evita el desbordamiento horizontal y redimensiona automáticamente el iframe para quitar el espacio inferior.
+
+Cada código de inserción conserva los ajustes con los que se generó. Si luego cambias una opción, copia el nuevo código y reemplaza el anterior en tu web.
