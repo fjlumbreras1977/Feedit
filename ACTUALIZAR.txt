@@ -1,10 +1,11 @@
-ACTUALIZACIÓN: CORRECCIÓN DE WIDGETS
+ACTUALIZACIÓN: DISEÑO, FOTOS Y WIDGET
 
 1. Abre el repositorio Feedit en GitHub.
 2. Pulsa Add file > Upload files.
-3. Descomprime este ZIP y arrastra todo su contenido, conservando carpetas. Acepta reemplazar los archivos existentes.
+3. Descomprime este ZIP y arrastra todo su contenido, conservando las carpetas. Acepta reemplazar los archivos existentes.
 4. Pulsa Commit changes.
-5. Espera en Cloudflare hasta que el despliegue indique Successful.
-6. Recarga Feedit con Ctrl+F5 y genera de nuevo el widget. Si usas un código iframe antiguo, copia el nuevo código desde Feedit y sustituye el anterior en tu web.
+5. Espera a que el despliegue de Cloudflare aparezca como Successful.
+6. Recarga Feedit con Ctrl+F5.
+7. Genera de nuevo el widget. Cuando cambies la configuración, copia el código actualizado y reemplaza el iframe que ya habías pegado en tu web: el código insertado conserva los ajustes que tenía al copiarlo.
 
-Esta versión corrige el error «escapeHtml is not defined», mantiene los ajustes personalizados en el código insertable y carga las fotos del widget a través de un proxy con caché. El widget va dentro de un iframe para aislar sus estilos.
+Esta versión evita que el campo de código ensanche la página, mantiene el ancho de la vista previa dentro de su tarjeta y carga las fotos de la vista previa y del widget mediante el proxy de Feedit.
