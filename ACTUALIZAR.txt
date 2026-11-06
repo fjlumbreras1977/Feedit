@@ -6,7 +6,7 @@ ACTUALIZACIÓN: IMÁGENES Y CONFIGURACIÓN REAL DEL IFRAME
 4. Pulsa Commit changes.
 5. Espera a que Cloudflare muestre el despliegue como Successful.
 6. Recarga Feedit con Ctrl+F5 y genera otra vez el feed.
-7. Ajusta el widget: la vista previa ahora utiliza el mismo iframe y los mismos parámetros que el código insertable.
+7. Ajusta el widget: la vista previa ahora utiliza el mismo iframe y los mismos parámetros que el código insertable. Puedes activar o desactivar «Mostrar web de origen».
 8. Copia el nuevo código y reemplaza el iframe que ya tengas pegado en tu web.
 
-Las páginas insertadas no pueden recibir cambios hechos después en el editor mientras conserven el código anterior. Cada código copiado guarda la configuración que tenía al generarlo; reemplázalo en la web cuando cambies el diseño, los colores, los textos, el movimiento o el número de entradas.
+Las páginas insertadas no pueden recibir cambios hechos después en el editor mientras conserven el código anterior. Cada código copiado guarda la configuración que tenía al generarlo; reemplázalo en la web cuando cambies el diseño, los colores, los textos, la fuente visible, el movimiento o el número de entradas.
