@@ -10,3 +10,5 @@ CÓMO PUBLICAR ESTA ACTUALIZACIÓN
 No cambies los valores de Cloudflare para una actualización normal. Si GitHub pregunta si reemplazar archivos con el mismo nombre, acepta el reemplazo.
 
 El favicon Feedit está en public/favicon.svg y también integrado en el Worker. Al copiar la actualización, conserva la carpeta public y reemplaza src/index.js.
+
+Esta revisión corrige la carga de imágenes del widget mediante un proxy de Feedit con caché y límite de tamaño, mejora el tratamiento cuando una imagen externa falla y sincroniza los cambios de personalización con la vista previa y el código insertable. El widget permanece aislado en un iframe para evitar que sus estilos alteren la página donde se inserta.
