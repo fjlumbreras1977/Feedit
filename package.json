@@ -1,5 +1,5 @@
 {
-  "name": "droma-rss-studio",
+  "name": "feedit",
   "version": "1.0.0",
   "private": true,
   "description": "Generador de feeds RSS y widgets dinámicos Dröma",
@@ -9,5 +9,6 @@
   },
   "devDependencies": {
     "wrangler": "^4.0.0"
-  }
+  },
+  "type": "module"
 }

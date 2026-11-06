@@ -1,20 +1,21 @@
-# Dröma RSS Studio
+# Feedit
 
-Generador de feeds RSS desde páginas web o fuentes RSS/Atom, con widgets insertables, personalizables y responsive.
+Genera feeds RSS desde páginas web o fuentes RSS/Atom y crea widgets personalizables para insertarlos en otras webs.
 
-## Instalación rápida
+## Actualizar el Worker
 
-Consulta `EMPIEZA-AQUI.txt`: contiene los pasos mínimos para subir el proyecto a GitHub y conectarlo con Cloudflare Workers.
+Consulta `ACTUALIZAR.txt`. Basta con reemplazar el contenido del repositorio en GitHub y confirmar el cambio. Cloudflare despliega la rama conectada automáticamente.
 
 ## Funciones
 
 - Detección de feeds de WordPress, Substack, Medium, Blogger, Ghost, Tumblr y YouTube.
-- Extracción de imágenes y metadatos `media:content` en el RSS generado.
+- Extracción de imágenes y metadatos `media:content` en el RSS.
 - Siete diseños de widget: muro, lista, carrusel, imágenes, cinta, revista y feed.
-- Personalización de colores, cabeceras, textos, tamaño, número de entradas, movimiento y velocidad.
-- Caché para reducir consultas repetidas y conservar la última respuesta válida ante límites temporales del sitio de origen.
-- Diseño responsive para móvil y escritorio.
+- Personalización de colores, cabecera, textos, velocidad, dirección, movimiento y número de entradas.
+- Vista previa y código insertable que se actualizan al cambiar los controles.
+- Proxy de imágenes con caché para fuentes que bloquean la carga directa desde otros dominios.
+- Widgets aislados en `iframe` y adaptables a móvil y escritorio.
 
 ## Requisitos
 
-La aplicación se ejecuta en Cloudflare Workers. GitHub almacena el código y Cloudflare lo publica. No está diseñada para instalarse subiendo archivos a un hosting PHP tradicional.
+Feedit se ejecuta en Cloudflare Workers. GitHub almacena el código y Cloudflare despliega el Worker.

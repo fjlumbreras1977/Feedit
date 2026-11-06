@@ -1,14 +1,10 @@
-CÓMO PUBLICAR ESTA ACTUALIZACIÓN
+ACTUALIZACIÓN: CORRECCIÓN DE WIDGETS
 
-1. Abre tu repositorio en GitHub.
+1. Abre el repositorio Feedit en GitHub.
 2. Pulsa Add file > Upload files.
-3. Descomprime el ZIP y arrastra TODOS los archivos y carpetas a GitHub, sustituyendo los existentes cuando lo solicite.
+3. Descomprime este ZIP y arrastra todo su contenido, conservando carpetas. Acepta reemplazar los archivos existentes.
 4. Pulsa Commit changes.
-5. Cloudflare detectará el cambio y publicará la nueva versión automáticamente. Espera a que el despliegue aparezca como Successful.
-6. Recarga Feedit. Si aún ves la versión anterior, haz una recarga forzada con Ctrl+F5.
+5. Espera en Cloudflare hasta que el despliegue indique Successful.
+6. Recarga Feedit con Ctrl+F5 y genera de nuevo el widget. Si usas un código iframe antiguo, copia el nuevo código desde Feedit y sustituye el anterior en tu web.
 
-No cambies los valores de Cloudflare para una actualización normal. Si GitHub pregunta si reemplazar archivos con el mismo nombre, acepta el reemplazo.
-
-El favicon Feedit está en public/favicon.svg y también integrado en el Worker. Al copiar la actualización, conserva la carpeta public y reemplaza src/index.js.
-
-Esta revisión corrige la carga de imágenes del widget mediante un proxy de Feedit con caché y límite de tamaño, mejora el tratamiento cuando una imagen externa falla y sincroniza los cambios de personalización con la vista previa y el código insertable. El widget permanece aislado en un iframe para evitar que sus estilos alteren la página donde se inserta.
+Esta versión corrige el error «escapeHtml is not defined», mantiene los ajustes personalizados en el código insertable y carga las fotos del widget a través de un proxy con caché. El widget va dentro de un iframe para aislar sus estilos.
