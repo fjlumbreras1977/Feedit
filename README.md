@@ -26,3 +26,7 @@ Feedit se ejecuta en Cloudflare Workers. El Worker se llama `feedit`; GitHub alm
 ### Estilos y movimiento del widget
 
 Los siete estilos (`Lista`, `Muro`, `Carrusel`, `Imágenes`, `Cinta`, `Revista` y `Feed`) mantienen su diseño al activar el movimiento. El avance cíclico repite las entradas fuera de la zona visible para que el recorrido continúe desde la primera. Tras cambiar ajustes, copia el nuevo código de inserción y reemplaza el anterior en tu web.
+
+### Combinar varias fuentes
+
+En el cuadro de origen puedes pegar hasta cinco direcciones, una por línea. Feedit acepta páginas web y feeds RSS/Atom, reúne las noticias, elimina enlaces repetidos y genera un feed RSS y un widget común.
